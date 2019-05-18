@@ -13,7 +13,6 @@ G_plum_plum= np.zeros(arraySize)
 
 G_plum[0]=140
 for i in range (1,arraySize-1):
-        print i
         currentElement=G[i]
         left= G[i-1]
         right = G[i+1]
